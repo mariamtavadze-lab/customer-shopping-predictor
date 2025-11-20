@@ -14,7 +14,7 @@ Goal: Classify purchase categories based on Demographics (Age, Gender, Location)
 
 Algorithm: Random Forest Classifier.
 
-Accuracy: ~79% based on test data.
+Accuracy: ~79% based on test data. The model achieved 78.46% accuracy. While not perfect, this significantly outperforms the baseline probability. The remaining error is likely due to the inherent unpredictability of individual consumer choices that cannot be captured by demographic data alone (e.g., personal taste or impulse buys).
 
 Libraries: pandas, scikit-learn, numpy.
 
