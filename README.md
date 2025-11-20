@@ -14,7 +14,7 @@ Goal: Classify purchase categories based on Demographics (Age, Gender, Location)
 
 Algorithm: Random Forest Classifier.
 
-Accuracy: ~[Insert Accuracy Here]% based on test data.
+Accuracy: ~79% based on test data.
 
 Libraries: pandas, scikit-learn, numpy.
 
