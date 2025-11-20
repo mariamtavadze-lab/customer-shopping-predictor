@@ -66,6 +66,12 @@ Install lucide-react and tailwindcss.
 
 Import this component into your main App.js.
 
-Note for Testing: To preview the Dashboard, copy the code from customer_prediction_app.jsx into CodeSandbox. You will need to add the Tailwind CSS script to the index.html file for the styling to appear correctly.
+Quick ways to see the enhanced UI:
 
-https://ymzpcp.csb.app
+1. **CodeSandbox preview (fastest):** Open https://ymzpcp.csb.app to load a hosted preview of the current dashboard styles.
+2. **CodeSandbox editing:** Copy the contents of `customer_prediction_app.jsx` into a new React sandbox, add the Tailwind CSS script to `index.html`, and run the app to view the gradients and interactive controls.
+3. **Local run:**
+   - Create a new Vite or Create React App project.
+   - Install dependencies: `npm install lucide-react tailwindcss`
+   - Replace your `App.jsx` (or equivalent) with `customer_prediction_app.jsx` from this repo.
+   - Start the dev server (`npm run dev` or `npm start`) and visit the local URL to see the updated background, cards, and gradient probability bars.
